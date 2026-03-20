@@ -60,3 +60,31 @@ enableRobotsTXT = true
     name = "Contact Us"
     url = "/contact/"
     weight = 4
+
+# 🎯 [메인 메뉴 제어] 상단 내비게이션에서 About을 완전히 제외하고 고정합니다.
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "AI Lab"
+    url = "/categories/ai_lab/"
+    weight = 2
+
+[[menu.main]]
+    name = "Business"
+    url = "/categories/biz_forms/"
+    weight = 3
+
+[[menu.main]]
+    name = "Software"
+    url = "/categories/soft_guide/"
+    weight = 4
+
+[[menu.main]]
+    name = "Income"
+    url = "/categories/smart_income/"
+    weight = 5
+
+# (참고) [[menu.main]] 섹션에 "About"이 들어간 덩어리가 있다면 반드시 삭제하세요!
