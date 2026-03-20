@@ -9,7 +9,7 @@ draft: false
 
 Future Tech Lab에 대한 문의사항이 있으시면 아래 이메일로 연락해 주세요.
 
-**이메일**: contact@future-tech-lab.com
+**이메일**: syonline@naver.com
 
 ### 문의 가능 사항
 
