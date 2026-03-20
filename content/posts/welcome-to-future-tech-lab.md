@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Future Tech Lab: The Future of AI"
+title: "Welcome to Future Tech Lab- The Future of AI"
 date: 2026-03-21
 slug: "welcome-future-tech-lab"
 description: "Exploring the intersection of AI technology and business automation for a smarter future."
