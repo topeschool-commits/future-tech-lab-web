@@ -1,38 +1,44 @@
 ---
-title: "개인정보 처리방침"
+title: "Privacy Policy"
 slug: "privacy"
-description: "Future Tech Lab 개인정보 처리방침"
+description: "Privacy Policy and Terms of Use for Future Tech Lab."
 draft: false
 ---
 
-## 개인정보 처리방침
+## Privacy Policy for Future Tech Lab
 
-Future Tech Lab(이하 "사이트")은 이용자의 개인정보를 중요시하며, 「개인정보 보호법」을 준수합니다.
+At **Future Tech Lab** (accessible from https://future-tech-lab.com), one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Future Tech Lab and how we use it.
 
-### 1. 수집하는 개인정보 항목
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through our [Contact Us](/contact/) page.
 
-본 사이트는 별도의 회원가입 절차 없이 서비스를 제공하며, 다음과 같은 정보만을 자동으로 수집합니다.
+### 1. Log Files
 
-- 방문 통계 정보: IP 주소, 브라우저 종류, 방문 페이지, 접속 시간
-- 쿠키(Cookie): 웹 분석 및 광고 서비스를 위한 쿠키
+Future Tech Lab follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
 
-### 2. 개인정보의 이용 목적
+### 2. Cookies and Web Beacons
 
-수집된 정보는 다음 목적에만 활용됩니다.
+Like any other website, Future Tech Lab uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
 
-- 사이트 이용 통계 분석 및 서비스 개선
-- 광고 서비스 제공 (Google AdSense)
+### 3. Google DoubleClick DART Cookie
 
-### 3. 쿠키(Cookie)의 사용
+Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – [https://policies.google.com/technologies/ads](https://policies.google.com/technologies/ads)
 
-본 사이트는 Google Analytics 및 Google AdSense를 통해 쿠키를 사용할 수 있습니다. 이용자는 웹 브라우저 설정을 통해 쿠키 저장을 거부하거나 삭제할 수 있습니다.
+### 4. Our Advertising Partners
 
-### 4. 개인정보의 보유 및 파기
+Some of advertisers on our site may use cookies and web beacons. Our advertising partners include Google AdSense. Each of our advertising partners has their own Privacy Policy for their policies on user data. 
 
-수집된 방문 통계 데이터는 서비스 운영 기간 동안 보유하며, 목적 달성 후 지체 없이 파기합니다.
+Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Future Tech Lab, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
 
-### 5. 개인정보 보호 책임자
+*Note that Future Tech Lab has no access to or control over these cookies that are used by third-party advertisers.*
 
-개인정보 관련 문의사항은 [문의하기](/contact/) 페이지를 통해 연락해 주세요.
+### 5. Third Party Privacy Policies
 
-본 개인정보 처리방침은 2026년 3월 20일부터 시행됩니다.
+Future Tech Lab's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+
+You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
+
+### 6. Consent
+
+By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.
+
+*This Privacy Policy is effective as of March 20, 2026.*
