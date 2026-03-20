@@ -1,30 +1,45 @@
 ---
-title: "서비스 이용약관"
+title: "Terms of Service"
 slug: "terms"
-description: "Future Tech Lab 서비스 이용약관"
+description: "Terms of Service and conditions of use for Future Tech Lab."
 draft: false
 ---
 
-## 서비스 이용약관
+## Terms of Service
 
-### 제1조 (목적)
+Welcome to **Future Tech Lab**! 
 
-본 약관은 Future Tech Lab(이하 "사이트")이 제공하는 인터넷 서비스의 이용 조건 및 절차에 관한 사항을 규정함을 목적으로 합니다.
+These terms and conditions outline the rules and regulations for the use of Future Tech Lab's Website, located at https://future-tech-lab.com.
 
-### 제2조 (서비스의 내용)
+By accessing this website, we assume you accept these terms and conditions. Do not continue to use Future Tech Lab if you do not agree to take all of the terms and conditions stated on this page.
 
-사이트는 AI 기술, 비즈니스 자동화, 소프트웨어 가이드 등 기술 관련 정보를 무료로 제공합니다.
+### 1. Purpose and Scope
 
-### 제3조 (저작권)
+The purpose of these Terms of Service is to set forth the rights, obligations, and responsibilities, as well as the procedures and conditions for using the internet services provided by Future Tech Lab (hereinafter referred to as the "Site").
 
-사이트에 게시된 모든 콘텐츠의 저작권은 Future Tech Lab에 있으며, 무단 복제 및 배포를 금합니다. 개인적인 학습 및 비영리 목적의 인용 시 출처를 명시해야 합니다.
+### 2. Provision of Services
 
-### 제4조 (면책 조항)
+The Site provides free, informational content related to AI technology, business automation, software guides, and related digital trends. The content is intended for educational and informational purposes only.
 
-사이트에서 제공하는 정보는 참고 목적이며, 이를 기반으로 한 의사결정에 대해 사이트는 법적 책임을 지지 않습니다.
+### 3. Intellectual Property Rights
 
-### 제5조 (약관의 변경)
+Unless otherwise stated, Future Tech Lab and/or its licensors own the intellectual property rights for all material on the Site. All intellectual property rights are reserved. 
 
-본 약관은 관련 법령이나 서비스 정책의 변경에 따라 수정될 수 있으며, 변경된 약관은 사이트에 게시함으로써 효력을 발생합니다.
+You may access this from Future Tech Lab for your own personal, non-commercial use subjected to restrictions set in these terms and conditions. You must not:
+* Republish material from Future Tech Lab without proper attribution.
+* Sell, rent, or sub-license material from Future Tech Lab.
+* Reproduce, duplicate, or copy material from Future Tech Lab for commercial purposes.
 
-본 약관은 2026년 3월 20일부터 시행됩니다.
+When quoting our materials for personal learning or non-commercial purposes, you must clearly state the source (Future Tech Lab) and provide a link back to the original content.
+
+### 4. Disclaimer and Limitation of Liability
+
+All the information on this website is published in good faith and for general informational purposes only. Future Tech Lab does not make any warranties about the completeness, reliability, and accuracy of this information. 
+
+Any action you take upon the information you find on this website (Future Tech Lab), is strictly at your own risk. Future Tech Lab will not be liable for any losses and/or damages in connection with the use of our website. We highly recommend consulting with a certified professional before making any major business or technical decisions based on our content.
+
+### 5. Modifications to the Terms
+
+Future Tech Lab reserves the right to revise these Terms of Service at any time as it sees fit, and by using this Website you are expected to review these Terms on a regular basis. Changes will be effective immediately upon posting to the Site.
+
+*These Terms of Service are effective as of March 20, 2026.*
