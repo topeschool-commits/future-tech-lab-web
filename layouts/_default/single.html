@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    <div class="post-meta">
+        {{ .Date.Format "2006년 01월 02일" }}
+        {{ range .Params.categories }}
+        · <a href="/categories/{{ . | urlize }}/" style="color:inherit;">{{ . }}</a>
+        {{ end }}
+    </div>
+    {{ with .Params.image }}
+    <img src="{{ . }}" alt="{{ $.Title }}" class="featured-image">
+    {{ end }}
+    {{ .Content }}
+    {{ with .Params.tags }}
+    <div class="tag-list">
+        {{ range . }}
+        <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>
+        {{ end }}
+    </div>
+    {{ end }}
+</article>
+{{ end }}

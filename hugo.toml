@@ -1,0 +1,40 @@
+baseURL = 'https://future-tech-lab.com/'
+languageCode = 'ko'
+title = 'Future Tech Lab'
+defaultContentLanguage = 'ko'
+
+# 퍼머링크 설정 (SEO 최적화)
+[permalinks]
+  posts = '/:slug/'
+
+# 사이트맵 자동 생성
+[sitemap]
+  changefreq = 'daily'
+  priority = 0.8
+  filename = 'sitemap.xml'
+
+# RSS 피드
+[outputs]
+  home = ['HTML', 'RSS']
+
+# 사이트 파라미터
+[params]
+  description = "AI 기술, 비즈니스 자동화, 소프트웨어 가이드 - Future Tech Lab"
+  author = "FTL Editor"
+  favicon = "/images/favicon.ico"
+
+# 마크다운 렌더링 (HTML 허용)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'monokai'
+
+# 분류 체계
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+# robots.txt 자동 생성
+enableRobotsTXT = true

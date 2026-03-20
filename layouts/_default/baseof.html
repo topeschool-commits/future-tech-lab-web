@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="stylesheet" href="/css/style.css">
+    {{ template "_internal/opengraph.html" . }}
+    <!-- AdSense: 승인 후 아래 주석 해제 -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXX" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="site-logo">Future Tech Lab</a>
+            <nav class="site-nav">
+                <a href="/">Home</a>
+                <a href="/categories/ai_lab/">AI Lab</a>
+                <a href="/categories/biz_forms/">Business</a>
+                <a href="/categories/soft_guide/">Software</a>
+                <a href="/categories/smart_income/">Income</a>
+                <a href="/about/">About</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            {{ block "main" . }}{{ end }}
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 {{ .Site.Title }}. All rights reserved.</p>
+            <p style="margin-top:8px;">
+                <a href="/about/">사이트 소개</a>
+                <a href="/privacy/">개인정보처리방침</a>
+                <a href="/terms/">이용약관</a>
+                <a href="/contact/">문의하기</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
