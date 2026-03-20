@@ -1,6 +1,6 @@
 ---
 title: "Terms of Service"
-date: 2026-03-20T16:50:00+09:00  <-- 이 줄을 추가하세요! (현재 시간 기준)
+date: 2026-03-20
 slug: "terms"
 description: "Terms of Service and conditions of use for Future Tech Lab."
 draft: false
