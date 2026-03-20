@@ -10,9 +10,26 @@
     {{ with .Params.image }}
     <img src="{{ . }}" alt="{{ $.Title }}" class="featured-image">
     {{ end }}
+
     {{ .Content }}
+
+    <div class="post-disclaimer" style="background-color: #fcfcfc; border: 1px solid #eeeeee; padding: 25px; margin-top: 50px; border-radius: 12px; font-size: 0.88rem; line-height: 1.8; color: #444; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+        <div style="font-weight: bold; color: #222; margin-bottom: 12px; font-size: 1rem; letter-spacing: -0.02em;">
+            ⚠️ LEGAL DISCLAIMER
+        </div>
+        <p style="margin-bottom: 12px;">
+            <strong>Informational Purposes Only:</strong> The content provided on <strong>Future-Tech-Lab</strong> is for general informational and educational purposes only. It is not intended to be a substitute for professional legal, financial, or business advice.
+        </p>
+        <p style="margin-bottom: 12px;">
+            <strong>No Warranties:</strong> While we strive for accuracy, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, or reliability of the information contained on this website. Any action you take upon the information you find on this website is strictly at your own risk.
+        </p>
+        <p style="margin-bottom: 0; font-style: italic; color: #777;">
+            <strong>Professional Consultation:</strong> We strongly recommend consulting with a qualified professional before making any business or legal decisions based on the content of this site. Future-Tech-Lab will not be liable for any losses or damages in connection with the use of our website.
+        </p>
+    </div>
+
     {{ with .Params.tags }}
-    <div class="tag-list">
+    <div class="tag-list" style="margin-top:30px;">
         {{ range . }}
         <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>
         {{ end }}
