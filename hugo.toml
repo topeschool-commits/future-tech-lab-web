@@ -40,7 +40,7 @@ defaultContentLanguage = 'en'
 # Automatic robots.txt
 enableRobotsTXT = true
 
-# [핵심] 하단 메뉴 영문화 (Footer Menu)
+# [핵심] 하단 메뉴 설정 (Footer Menu)
 [[menu.footer]]
     name = "About Us"
     url = "/about/"
