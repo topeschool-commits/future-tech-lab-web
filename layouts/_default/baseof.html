@@ -9,34 +9,33 @@
     <link rel="stylesheet" href="/css/style.css">
     {{ template "_internal/opengraph.html" . }}
     <style>
-        /* 💡 글로벌 제국을 위한 추가 스타일링 */
-        .footer-nav a:hover { color: #007bff !important; text-decoration: underline !important; }
-        .site-nav a { margin-left: 15px; text-decoration: none; color: inherit; font-weight: 500; }
-        .site-nav a:hover { color: #007bff; }
+        /* 💡 글로벌 제국 가독성 강화 */
+        .site-nav a:hover, .footer-nav a:hover { color: #007bff !important; text-decoration: underline !important; }
+        .site-nav a { transition: all 0.2s ease; }
     </style>
 </head>
 <body>
-<header class="site-header" style="background-color: #1a1c2c !important; border-bottom: 2px solid #333; padding: 25px 0; width: 100%;">
-    <div class="container" style="display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; padding: 0 20px;">
-        
-        <a href="/" class="site-logo" style="display: block !important; visibility: visible !important;">
-            <span style="color: #ffffff !important; font-size: 1.6rem !important; font-weight: 800 !important; text-decoration: none !important; letter-spacing: -0.05em !important; opacity: 1 !important;">
-                Future Tech Lab
-            </span>
-        </a>
+    <header class="site-header" style="background-color: #1a1c2c !important; border-bottom: 2px solid #333; padding: 25px 0; width: 100%;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; padding: 0 20px;">
+            
+            <a href="/" class="site-logo" style="display: block !important; text-decoration: none !important;">
+                <span style="color: #ffffff !important; font-size: 1.6rem !important; font-weight: 800 !important; letter-spacing: -0.05em !important;">
+                    Future Tech Lab
+                </span>
+            </a>
 
-        <nav class="site-nav" style="display: flex; gap: 20px;">
-            <a href="/" style="color: #ffffff !important; text-decoration: none; font-weight: 500; font-size: 0.95rem;">Home</a>
-            <a href="/categories/ai_lab/" style="color: #ffffff !important; text-decoration: none; font-weight: 500; font-size: 0.95rem;">AI Lab</a>
-            <a href="/categories/biz_forms/" style="color: #ffffff !important; text-decoration: none; font-weight: 500; font-size: 0.95rem;">Business</a>
-            <a href="/categories/soft_guide/" style="color: #ffffff !important; text-decoration: none; font-weight: 500; font-size: 0.95rem;">Software</a>
-            <a href="/categories/smart_income/" style="color: #ffffff !important; text-decoration: none; font-weight: 500; font-size: 0.95rem;">Income</a>
-        </nav>
-    </div>
-</header>
+            <nav class="site-nav" style="display: flex; gap: 20px;">
+                {{ range .Site.Menus.main }}
+                <a href="{{ .URL | relURL }}" style="color: #ffffff !important; text-decoration: none; font-weight: 500; font-size: 0.95rem;">
+                    {{ .Name }}
+                </a>
+                {{ end }}
+            </nav>
+        </div>
+    </header>
 
     <main style="padding: 40px 0; min-height: 70vh;">
-        <div class="container">
+        <div class="container" style="max-width: 1100px; margin: 0 auto; padding: 0 20px;">
             {{ block "main" . }}{{ end }}
         </div>
     </main>
