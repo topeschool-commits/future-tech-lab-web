@@ -1,29 +1,30 @@
 baseURL = 'https://future-tech-lab.com/'
-languageCode = 'ko'
+languageCode = 'en-us'
 title = 'Future Tech Lab'
-defaultContentLanguage = 'ko'
+defaultContentLanguage = 'en'
 
-# 퍼머링크 설정 (SEO 최적화)
+# Permalinks (SEO Optimized)
 [permalinks]
   posts = '/:slug/'
 
-# 사이트맵 자동 생성
+# Sitemap Configuration
 [sitemap]
   changefreq = 'daily'
   priority = 0.8
   filename = 'sitemap.xml'
 
-# RSS 피드
+# RSS Feed
 [outputs]
   home = ['HTML', 'RSS']
 
-# 사이트 파라미터
+# Site Parameters (All English)
 [params]
-  description = "AI 기술, 비즈니스 자동화, 소프트웨어 가이드 - Future Tech Lab"
+  description = "AI Technology, Business Automation, and Software Guides - Future Tech Lab"
   author = "FTL Editor"
   favicon = "/images/favicon.ico"
+  copyright = "© 2026 Future Tech Lab. All rights reserved."
 
-# 마크다운 렌더링 (HTML 허용)
+# Markdown Rendering (HTML Allowed)
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -31,10 +32,31 @@ defaultContentLanguage = 'ko'
   [markup.highlight]
     style = 'monokai'
 
-# 분류 체계
+# Taxonomy Configuration
 [taxonomies]
   category = 'categories'
   tag = 'tags'
 
-# robots.txt 자동 생성
+# Automatic robots.txt
 enableRobotsTXT = true
+
+# [핵심] 하단 메뉴 영문화 (Footer Menu)
+[[menu.footer]]
+    name = "About Us"
+    url = "/about/"
+    weight = 1
+
+[[menu.footer]]
+    name = "Privacy Policy"
+    url = "/privacy/"
+    weight = 2
+
+[[menu.footer]]
+    name = "Terms of Service"
+    url = "/terms/"
+    weight = 3
+
+[[menu.footer]]
+    name = "Contact Us"
+    url = "/contact/"
+    weight = 4
