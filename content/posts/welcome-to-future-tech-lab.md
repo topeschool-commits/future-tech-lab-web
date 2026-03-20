@@ -3,7 +3,6 @@ title: "Welcome to Future Tech Lab- The Future of AI"
 date: 2026-03-20
 draft: false
 slug: "welcome-future-tech-lab"
-description: "Exploring the intersection of AI technology and business automation for a smarter future."
 categories: ["ai_lab"]
 tags: ["AI", "Future", "Tech"]
 ---
