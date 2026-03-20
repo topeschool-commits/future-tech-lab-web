@@ -1,12 +1,12 @@
 {{ define "main" }}
 <h2 style="margin-bottom:4px; font-size:1.1rem; font-weight:600;">Latest Posts</h2>
-<p style="color:#6c757d; font-size:0.88rem; margin-bottom:20px;">AI 기술, 비즈니스 전략, 소프트웨어 가이드</p>
+<p style="color:#6c757d; font-size:0.88rem; margin-bottom:20px;">AI Technology, Business Automation, and Software Guides</p>
 <ul class="post-list">
 {{ range first 30 .Site.RegularPages }}
     <li class="post-item">
         <div class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
         <div class="post-meta">
-            {{ .Date.Format "2006.01.02" }}
+            {{ .Date.Format "Jan 02, 2006" }}
             {{ range .Params.categories }}
             <span class="category">{{ . }}</span>
             {{ end }}
