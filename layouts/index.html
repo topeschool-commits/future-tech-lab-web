@@ -6,10 +6,19 @@
     </p>
 </div>
 
-<ul class="post-list" style="list-style: none; padding: 0;">
+
+<ul class="post-list" style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 20px;">
     {{ range first 30 (where .Site.RegularPages "Section" "posts") }}
-    <li class="post-item" style="margin-bottom: 35px; border-bottom: 1px solid #f8f9fa; padding-bottom: 25px;">
+    
+    <li class="post-item" style="background: #ffffff; border-radius: 10px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #f1f3f5; transition: transform 0.2s, box-shadow 0.2s;">
+        
         <div class="post-title" style="margin-bottom: 8px;">
+
+
+
+
+
+            
             <a href="{{ .Permalink }}" style="text-decoration: none; color: #004085; font-size: 1.2rem; font-weight: 600; line-height: 1.4; transition: color 0.2s;">
                 {{ .Title }}
             </a>
