@@ -8,7 +8,11 @@
 
 
 <ul class="post-list" style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 20px;">
-    {{ range first 30 (where .Site.RegularPages "Section" "posts") }}
+    {{/* 기존 코드는 잠시 봉인
+        {{ range first 30 (where .Site.RegularPages "Section" "posts") }} 
+    */}}
+
+    {{ range first 30 (where (where .Site.RegularPages "Section" "posts") "Params.categories" "intersect" (slice "AI Lab" "Business" "ai_lab" "biz_forms")) }}
     
     <li class="post-item" style="background: #ffffff; border-radius: 10px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #f1f3f5; transition: transform 0.2s, box-shadow 0.2s;">
         
