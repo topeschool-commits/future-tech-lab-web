@@ -3,7 +3,7 @@
         
         <a href="/" class="site-logo" style="display: block !important; text-decoration: none !important;">
             <span style="color: #ffffff !important; font-size: 1.6rem !important; font-weight: 800 !important; letter-spacing: -0.05em !important;">
-                Future Tech Lab
+                {{ .Site.Title }}
             </span>
         </a>
 
@@ -11,7 +11,9 @@
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
             {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
-            <a href="{{ .URL | relURL }}" class="{{ if $active }}active-menu{{ end }}" style="color: #ffffff !important; text-decoration: none; font-weight: 500; font-size: 0.95rem;">
+            <a href="{{ .URL | relURL }}" 
+               class="{{ if $active }}active-menu{{ end }}" 
+               style="color: #ffffff !important; text-decoration: none; font-weight: 500; font-size: 0.95rem;">
                 {{ .Name }}
             </a>
             {{ end }}
