@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="stylesheet" href="/css/style.css">
+{{ template "_internal/opengraph.html" . }}
+<style>
+    /* 💡 글로벌 제국 가독성 강화 */
+    .site-nav a:hover, .footer-nav a:hover { color: #007bff !important; text-decoration: underline !important; }
+    .site-nav a { transition: all 0.2s ease; position: relative; padding-bottom: 5px; }
+    
+    /* ✅ 현재 선택된 메뉴 아래 파란색 언더라인 스타일 */
+    .active-menu { border-bottom: 3px solid #007bff !important; color: #ffffff !important; }
+</style>
