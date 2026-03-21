@@ -28,12 +28,14 @@
             {{ end }}
         </div>
 
-        <div class="post-desc" style="color: #444; font-size: 0.95rem; line-height: 1.7; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
-            {{ with .Description }}
-                {{ . }}
-            {{ else }}
-                {{ .Summary | truncate 200 }}
-            {{ end }}
+        <div class="post-desc" style="color: #444; font-size: 0.95rem; line-height: 1.7; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: 12px;">
+            {{- if and .Description (ne .Description .Title) -}}
+                {{/* 설명글이 있고 제목과 다를 때만 출력 */}}
+                {{ .Description }}
+            {{- else -}}
+                {{/* 설명글이 없거나 제목과 중복되면 본문(Summary)에서 200자 추출 */}}
+                {{ .Summary | plainify | truncate 200 }}
+            {{- end -}}
         </div>
     </li>
     {{ end }}
