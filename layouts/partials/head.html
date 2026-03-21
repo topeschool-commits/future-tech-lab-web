@@ -5,6 +5,42 @@
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="stylesheet" href="/css/style.css">
 {{ template "_internal/opengraph.html" . }}
+
+
+<meta name="google-adsense-account" content="ca-pub-8982396795153735">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8982396795153735" crossorigin="anonymous"></script>
+
+{{- /* 2. 마스터 템플릿 설정 (Hugo 변수 활용) */ -}}
+{{- $siteName := .Site.Title -}}
+{{- $firstLetter := substr $siteName 0 1 -}} {{/* 사이트 이름 첫 글자 추출 */}}
+{{- $faviconColor := "#007bff" -}}
+{{- $description := .Description | default .Site.Params.description | default "Professional Tech Insights" -}}
+
+<title>{{ if .IsHome }}{{ $siteName }}{{ else }}{{ .Title }} - {{ $siteName }}{{ end }}</title>
+<meta name="description" content="{{ $description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ .Title }} - {{ $siteName }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="/images/logo.png">
+<meta property="og:site_name" content="{{ $siteName }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }} - {{ $siteName }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="/images/logo.png">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='{{ $faviconColor | urlquery }}'/><text y='50%' x='50%' font-size='65' font-weight='900' font-family='Arial' dominant-baseline='central' text-anchor='middle' fill='white'>{{ $firstLetter }}</text></svg>">
+
+
+
+
+
+
+
+
 <style>
     /* 💡 글로벌 제국 가독성 강화 */
     .site-nav a:hover, .footer-nav a:hover { color: #007bff !important; text-decoration: underline !important; }
