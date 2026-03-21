@@ -77,14 +77,14 @@ enableRobotsTXT = true
     url = "/categories/biz_forms/"
     weight = 3
 
-[[menu.main]]
-    name = "Software"
-    url = "/categories/soft_guide/"
-    weight = 4
+#[[menu.main]]
+#    name = "Software"
+#    url = "/categories/soft_guide/"
+#    weight = 4
 
-[[menu.main]]
-    name = "Income"
-    url = "/categories/smart_income/"
-    weight = 5
+#[[menu.main]]
+#    name = "Income"
+#    url = "/categories/smart_income/"
+#    weight = 5
 
 # (참고) [[menu.main]] 섹션에 "About"이 들어간 덩어리가 있다면 반드시 삭제하세요!
