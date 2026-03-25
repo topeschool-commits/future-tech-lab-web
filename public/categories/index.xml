@@ -4,35 +4,21 @@
     <title>Categories on Future Tech Lab</title>
     <link>https://future-tech-lab.com/categories/</link>
     <description>Recent content in Categories on Future Tech Lab</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Mar 2026 09:55:34 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 12:02:25 +0900</lastBuildDate>
     <atom:link href="https://future-tech-lab.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ai_lab</title>
+      <title>AI Lab</title>
       <link>https://future-tech-lab.com/categories/ai_lab/</link>
-      <pubDate>Sat, 21 Mar 2026 09:55:34 +0900</pubDate>
+      <pubDate>Wed, 25 Mar 2026 12:02:25 +0900</pubDate>
       <guid>https://future-tech-lab.com/categories/ai_lab/</guid>
       <description></description>
     </item>
     <item>
-      <title>Soft_guide</title>
-      <link>https://future-tech-lab.com/categories/soft_guide/</link>
-      <pubDate>Sat, 21 Mar 2026 00:41:21 +0900</pubDate>
-      <guid>https://future-tech-lab.com/categories/soft_guide/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Smart_income</title>
-      <link>https://future-tech-lab.com/categories/smart_income/</link>
-      <pubDate>Sat, 21 Mar 2026 00:41:01 +0900</pubDate>
-      <guid>https://future-tech-lab.com/categories/smart_income/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Biz_forms</title>
+      <title>Business</title>
       <link>https://future-tech-lab.com/categories/biz_forms/</link>
-      <pubDate>Sat, 21 Mar 2026 00:40:38 +0900</pubDate>
+      <pubDate>Wed, 25 Mar 2026 12:01:34 +0900</pubDate>
       <guid>https://future-tech-lab.com/categories/biz_forms/</guid>
       <description></description>
     </item>
