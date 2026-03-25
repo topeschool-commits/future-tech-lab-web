@@ -6,13 +6,16 @@
     </p>
 </div>
 
+{{/* 1. 노출할 카테고리(AI Lab, Business) 글만 필터링해서 가져옵니다 */}}
+{{ $filteredPosts := where (where .Site.RegularPages "Section" "posts") "Params.categories" "intersect" (slice "AI Lab" "Business" "ai_lab" "biz_forms") }}
+
+{{/* 2. 페이징 엔진 가동! (한 페이지당 10개씩 노출) */}}
+{{ $paginator := .Paginate $filteredPosts 10 }}
 
 <ul class="post-list" style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 20px;">
-    {{/* 기존 코드는 잠시 봉인
-        {{ range first 30 (where .Site.RegularPages "Section" "posts") }} 
-    */}}
-
-    {{ range first 30 (where (where .Site.RegularPages "Section" "posts") "Params.categories" "intersect" (slice "AI Lab" "Business" "ai_lab" "biz_forms")) }}
+    
+    {{/* 3. 페이징된 결과물을 출력합니다 */}}
+    {{ range $paginator.Pages }}
     
     <li class="post-item" style="background: #ffffff; border-radius: 10px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #f1f3f5; transition: transform 0.2s, box-shadow 0.2s;">
         
@@ -33,10 +36,8 @@
 
         <div class="post-desc" style="color: #495057; font-size: 0.95rem; line-height: 1.7; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: 12px;">
             {{- if and .Description (ne .Description .Title) -}}
-                {{/* 설명글이 있고 제목과 다를 때만 출력 */}}
                 {{ .Description }}
             {{- else -}}
-                {{/* 설명글이 없거나 제목과 중복되면 본문(Summary)에서 200자 추출 */}}
                 {{ .Summary | plainify | truncate 200 }}
             {{- end -}}
         </div>
@@ -45,10 +46,12 @@
     {{ end }}
 </ul>
 
+{{/* 🎯 4. 잃어버렸던 페이지네이션 버튼 소환! */}}
+{{ partial "pagination.html" . }}
 
 
-
-{{ if eq (len (where .Site.RegularPages "Section" "posts")) 0 }}
+{{/* 데이터가 없을 때의 예외 처리 */}}
+{{ if eq (len $filteredPosts) 0 }}
 <div style="text-align: center; padding: 50px 0; color: #adb5bd;">
     <p>New high-quality content is currently being prepared. Stay tuned!</p>
 </div>
