@@ -43,7 +43,7 @@ draft: false
 
 
 
-<div style="margin:35px 0; padding:20px; background-color:#f8f9fa; border-left:5px solid #0056b3; border-radius:8px;"><p style="margin:0 0 8px 0; font-size:13px; font-weight:bold; color:#0056b3;">🔗 Recommended Reading</p><p style="margin:0;"><a href="/Mac-Security-Hardening-A-Comprehensive-Checklist/" style="color:#212529; text-decoration:none; font-weight:bold; font-size:16px; border-bottom:1px solid #dee2e6; padding-bottom:2px;">Mac Security Hardening: A Comprehensive Checklist</a></p></div>
+<div style="margin:35px 0; padding:20px; background-color:#f8f9fa; border-left:5px solid #0056b3; border-radius:8px;"><p style="margin:0 0 8px 0; font-size:13px; font-weight:bold; color:#0056b3;">🔗 Recommended Reading</p><p style="margin:0;"><a href="/mac-security-hardening-a-comprehensive-checklist/" style="color:#212529; text-decoration:none; font-weight:bold; font-size:16px; border-bottom:1px solid #dee2e6; padding-bottom:2px;">Mac Security Hardening A Comprehensive Checklist</a></p></div>
 
 
 
