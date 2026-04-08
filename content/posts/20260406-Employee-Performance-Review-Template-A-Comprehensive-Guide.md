@@ -39,13 +39,13 @@ draft: false
 
 
 
-<h3>결론</h3>
+<h3>Conclusion</h3>
 <p>Implementing a well-designed employee performance review template is essential for fostering a culture of continuous improvement and driving organizational success. By incorporating the key components outlined in this guide, such as clear objectives, specific evaluation categories, a standardized rating scale, and a section for goal setting and development planning, organizations can create a review process that is fair, objective, and effective. Furthermore, by avoiding common pitfalls such as creating a template that is too generic or failing to solicit employee input, organizations can ensure that the review process is meaningful and engaging for both managers and employees.</p>
 <p>The future of performance reviews is likely to involve even greater integration with technology and a greater emphasis on continuous feedback and development. As organizations increasingly adopt agile methodologies and embrace remote work, traditional annual performance reviews may become less relevant. Instead, there may be a shift towards more frequent, informal check-ins and ongoing performance conversations. Ultimately, the goal of the performance review process should be to support employee growth and development, drive organizational performance, and create a culture of continuous improvement. Embrace these future trends for best results.</p>
 
 <hr>
 
-<h3>❓ 자주 묻는 질문 (FAQ)</h3>
+<h3>❓ Frequently Asked Questions (FAQ)</h3>
 <details style="margin:10px 0;padding:10px 15px;background:#f8f9fa;border-radius:8px;border:1px solid #e9ecef;">
     <summary style="font-weight:bold;cursor:pointer;color:#333;">How often should employee performance reviews be conducted?</summary>
     <p style="margin-top:10px;color:#555;">The frequency of employee performance reviews depends on the organization's culture, industry, and specific needs. Traditionally, annual performance reviews have been the standard. However, many organizations are now moving towards more frequent reviews, such as quarterly or even monthly check-ins. More frequent reviews allow for more timely feedback and provide opportunities to address issues before they escalate. Consider your team's needs and the pace of your business to determine the optimal review frequency.</p>

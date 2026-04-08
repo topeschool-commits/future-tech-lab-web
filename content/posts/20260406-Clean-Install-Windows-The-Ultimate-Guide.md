@@ -37,13 +37,13 @@ draft: false
 
 
 
-<h3>결론</h3>
+<h3>Conclusion</h3>
 <p>Performing a clean install of Windows is a powerful solution for resolving system issues, improving performance, and creating a fresh start. By following the steps outlined in this guide, you can successfully perform a clean install and revitalize your Windows experience. Remember to back up your important data, gather your product keys, and download the necessary drivers before starting the process. With a little preparation and attention to detail, you can transform your sluggish and problematic computer into a fast and efficient machine.</p>
 <p>As technology continues to evolve, the process of performing a clean install may become even more streamlined and automated. Future versions of Windows may offer more advanced tools and features to simplify the installation process and optimize system performance. However, the fundamental principles of backing up your data, gathering your product keys, and installing the appropriate drivers will remain essential for a successful clean install. Embracing these practices will ensure you're well-prepared for any future operating system upgrades or system maintenance tasks.</p>
 
 <hr>
 
-<h3>❓ 자주 묻는 질문 (FAQ)</h3>
+<h3>❓ Frequently Asked Questions (FAQ)</h3>
 <details style="margin:10px 0;padding:10px 15px;background:#f8f9fa;border-radius:8px;border:1px solid #e9ecef;">
     <summary style="font-weight:bold;cursor:pointer;color:#333;">What happens to my files during a clean install?</summary>
     <p style="margin-top:10px;color:#555;">A clean install of Windows erases everything on the drive you install it on. This means all your files, programs, and settings will be deleted. That's why it's absolutely critical to back up all your important data to an external drive or cloud storage before starting the process. Once the clean install is complete, you'll have a fresh copy of Windows, but none of your previous data will be present unless you restore it from your backup.</p>
