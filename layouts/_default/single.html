@@ -14,6 +14,9 @@
 
     <div class="post-content" style="line-height: 1.8; color: #333;">
         {{ .Content }}
+ 
+    {{/* Strategic Placement: Deployed native recommended reading system */}}
+    {{ partial "recommended.html" . }}
     </div>
 
     <div class="post-disclaimer" style="background-color: #fcfcfc; border: 1px solid #eeeeee; padding: 25px; margin-top: 50px; border-radius: 12px; font-size: 0.88rem; line-height: 1.8; color: #444; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
