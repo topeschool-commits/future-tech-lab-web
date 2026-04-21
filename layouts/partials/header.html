@@ -7,8 +7,9 @@
             </span>
         </a>
 
-        <nav class="site-nav" style="display: flex; gap: 20px;">
+        <nav class="site-nav" style="display: flex; gap: 20px; align-items: center;">
             {{ $currentPage := . }}
+
             {{ range .Site.Menus.main }}
             {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
             <a href="{{ .URL | relURL }}" 
@@ -16,6 +17,15 @@
                style="color: #ffffff !important; text-decoration: none; font-weight: 500; font-size: 0.95rem;">
                 {{ .Name }}
             </a>
+            {{ end }}
+
+            {{ if .Site.Data.niches.categories }}
+                {{ range .Site.Data.niches.categories }}
+                <a href="/categories/{{ . | urlize }}/" 
+                   style="color: #ffffff !important; text-decoration: none; font-weight: 500; font-size: 0.95rem; opacity: 0.9;">
+                    {{ . | humanize | upper }}
+                </a>
+                {{ end }}
             {{ end }}
         </nav>
     </div>
