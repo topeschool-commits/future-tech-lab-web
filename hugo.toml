@@ -67,15 +67,18 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
 
-[[menu.main]]
-    name = "AI Lab"
-    url = "/categories/ai_lab/"
-    weight = 2
 
-[[menu.main]]
-    name = "Business"
-    url = "/categories/biz_forms/"
-    weight = 3
+# 🎯 [메인 메뉴 제어] 이 부분에서 Home만 남기고 나머지는 삭제합니다.
+
+# [[menu.main]]  <-- 삭제
+#    name = "AI Lab"
+#    url = "/categories/ai_lab/"
+#    weight = 2
+
+# [[menu.main]]  <-- 삭제
+#    name = "Business"
+#    url = "/categories/biz_forms/"
+#    weight = 3
 
 #[[menu.main]]
 #    name = "Software"
